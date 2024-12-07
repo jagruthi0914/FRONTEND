@@ -1,0 +1,84 @@
+/* Transportation Section Styling */
+.transportation-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .student-type {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .bus-selection-container {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .bus-details {
+    margin-top: 20px;
+  }
+  
+  .selected-bus-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .bus-id-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bus-id-card img {
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  
+  .generate-pass {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .generate-pass p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+  

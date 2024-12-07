@@ -1,0 +1,69 @@
+.cgpa-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cgpa-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.semester-selector {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.semester-dropdown {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.semester-section {
+  margin-bottom: 30px;
+}
+
+.cgpa-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.cgpa-table th, .cgpa-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.cgpa-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cgpa-table td {
+  background-color: #f2f2f2;
+}
+
+.cgpa-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.overall-cgpa {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.overall-cgpa h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.overall-cgpa p {
+  font-size: 18px;
+  font-weight: bold;
+}

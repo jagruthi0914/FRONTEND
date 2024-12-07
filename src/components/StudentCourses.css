@@ -1,0 +1,79 @@
+/* General container styling for the page */
+.courses-container {
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark text for readability */
+  }
+  
+  /* Header styling */
+  .courses-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #2c3e50; /* Dark blue-gray color */
+  }
+  
+  /* Card styling */
+  .course-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    background-color: #ffffff; /* White card background */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  /* Course title styling */
+  .course-title {
+    font-weight: 600;
+    color: #34495e; /* Darker grayish-blue */
+    margin-bottom: 8px;
+  }
+  
+  /* Instructor and schedule text */
+  .course-instructor,
+  .course-schedule {
+    color: #7f8c8d; /* Subtle gray for additional info */
+    margin-bottom: 6px;
+  }
+  
+  /* Materials header */
+  .materials-header {
+    font-weight: 500;
+    color: #2980b9; /* Bright blue for emphasis */
+    margin-top: 12px;
+  }
+  
+  /* Materials list styling */
+  .materials-list {
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .material-link {
+    color: #2980b9; /* Consistent bright blue */
+    text-transform: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .material-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* View more button styling */
+  .view-more-btn {
+    color: #ffffff;
+    background-color: #2980b9;
+    text-transform: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 20px;
+  }
+  
+  .view-more-btn:hover {
+    background-color: #1c5986; /* Slightly darker blue on hover */
+  }
+  

@@ -1,0 +1,81 @@
+.academic-registration-page {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .page-title {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .semester-selection {
+    margin-bottom: 30px;
+  }
+  
+  .semester-select {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .section-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .course-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .course-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-name {
+    font-weight: 500;
+  }
+  
+  .course-details {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .conflict-alert {
+    margin-top: 20px;
+  }
+  
+  .register-section {
+    text-align: center;
+  }
+  
+  .selected-courses table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .selected-courses th, .selected-courses td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .selected-courses th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  

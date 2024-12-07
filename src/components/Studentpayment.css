@@ -1,0 +1,40 @@
+.fee-payment {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.fee-payment .MuiPaper-root {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fee-payment .MuiTypography-h4 {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.fee-payment .MuiButton-root {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+}
+
+.fee-payment .MuiButton-root:hover {
+  background-color: #218838;
+}
+
+.upi-scanner {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.upi-qr {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
